@@ -10,3 +10,12 @@
     grid-row-gap: 5em;
     margin-bottom: 5em;
 }
+
+.fightsContainer{
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    align-self: center;
+    margin: auto;
+    width: fit-content;
+}
