@@ -1,0 +1,23 @@
+@font-face {
+    font-family: myfont;
+    src: url("../../fonts/Metabean.otf");
+}
+
+.Header{
+    height: 50vh;
+    text-align: center;
+}
+.Header > h1{
+    margin-top: 10%;
+    /*color: rgba(255,255,255, 0.3);*/
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 1rem;
+    font-family: myfont;
+    font-size: 10rem;
+    background: linear-gradient(to top , #ffe838,#fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    user-select: none;
+}

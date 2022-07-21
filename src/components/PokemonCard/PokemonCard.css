@@ -1,0 +1,7 @@
+.cardConatainer{
+    width: 80%;
+    justify-self: center;
+    border: solid 2px #ffe838;
+    border-radius: 15px;
+    color: #fd57bf;
+}

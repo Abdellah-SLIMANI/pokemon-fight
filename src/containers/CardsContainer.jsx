@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
 import PokemonCard from "../components/PokemonCard/PokemonCard";
+import "./CardsContainer.css"
 
 export default function CardsContainer(){
     const [pokemons, setPokemons] = useState([])
@@ -14,7 +15,7 @@ export default function CardsContainer(){
     },[])
 
     return(
-        <div>
+        <div className={'cardsContainer'}>
             {pokemons.sort((a,b) => a.name.localeCompare(b.name)).map(pokemon => {
                 return <PokemonCard name={pokemon.name} url={pokemon.url}/>
             })}
